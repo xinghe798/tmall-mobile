@@ -1,0 +1,271 @@
+@font-face {
+  font-family: "iconfont";
+  src: url(./iconfont.woff);
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 0.7rem;
+}
+
+.icon-fudai:before {
+  content: "\e629";
+}
+
+.icon-chazhao:before {
+  content: "\e684";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  list-style: none;
+  text-decoration: none;
+  color: #2f2f2f;
+}
+
+@media screen and (max-width: 1272px) {
+  html {
+    font-size: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 60.37736px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 47.16981px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  html {
+    font-size: 32.54717px;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  html {
+    font-size: 32.38994px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  html {
+    font-size: 29.87421px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 29.48113px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 28.30189px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 25.15723px;
+  }
+}
+
+body {
+  font-size: 0.35rem;
+  height: 1700px;
+}
+
+.header {
+  height: 1.3rem;
+  position: fixed;
+}
+
+.header .menu {
+  width: 1.82rem;
+  height: 1.3rem;
+  float: left;
+  text-align: center;
+  line-height: 1.3rem;
+}
+
+.header .search {
+  width: 9.1rem;
+  height: 1.3rem;
+  float: left;
+}
+
+.header .search input {
+  width: 9.1rem;
+  height: 1rem;
+  padding: 0.15rem 0;
+  outline: none;
+  display: block;
+  background-color: #E7EAF4;
+}
+
+.header .login {
+  width: 1.7rem;
+  height: 1.3rem;
+  float: left;
+  text-align: center;
+  line-height: 1.3rem;
+}
+
+.header::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.banner {
+  height: 6.04rem;
+  width: 12.72rem;
+}
+
+.banner img {
+  display: block;
+  width: 12.72rem;
+  height: 6.04rem;
+}
+
+#fenlei {
+  height: 4.18rem;
+  margin-top: 0.2rem;
+}
+
+#fenlei .fenlei {
+  width: 2rem;
+  height: 2.09rem;
+  float: left;
+  text-align: center;
+  padding-left: 0.544rem;
+}
+
+#fenlei .fenlei img {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+  margin: 0 auto;
+}
+
+.qiang {
+  height: 0.9rem;
+  padding-left: 4.34rem;
+}
+
+.qiang .xian {
+  width: 1rem;
+  border-bottom: 1px solid #f6b7b7;
+  display: inline-block;
+}
+
+.qiang img {
+  width: 0.45rem;
+  height: 0.45rem;
+  margin-left: 0.3rem;
+}
+
+.qiang .wenzi {
+  height: 0.9rem;
+  color: #FD3030;
+  font-size: 0.4rem;
+  display: inline-block;
+  line-height: 0.9rem;
+  margin-right: 0.3rem;
+  margin-left: 0.12rem;
+}
+
+#qiang {
+  height: 8.96rem;
+}
+
+#qiang a {
+  float: left;
+  height: 4.48rem;
+  width: 3.18rem;
+}
+
+#qiang a div {
+  height: 0.6rem;
+  width: 3.18rem;
+  text-align: center;
+}
+
+#qiang a img {
+  width: 2.8rem;
+  height: 2.8rem;
+  margin: 0 auto;
+}
+
+#qiang a .xianjia {
+  margin-left: 0.6rem;
+  color: #FD3030;
+}
+
+#qiang a .yuanjia {
+  text-decoration: line-through;
+  color: #9b9b9b;
+}
+
+.pinpaitm {
+  height: 3.72rem;
+}
+
+.pinpaitm img {
+  width: 6.2rem;
+  height: 3.72rem;
+}
+
+.pinpaizx {
+  height: 9.09rem;
+}
+
+.pinpaizx .img1 {
+  width: 31%;
+  height: 5.91rem;
+  border-right: 1px solid #f0f0f0;
+}
+
+.pinpaizx .img2 {
+  width: 100%;
+  height: 3.18rem;
+}
+
+.bjlife {
+  height: 4.95rem;
+}
+
+.bjlife .img1 {
+  width: 5.5rem;
+  height: 4.95rem;
+  border-right: 1px solid #f0f0f0;
+}
+
+.bjlife .img2-box {
+  display: inline-block;
+  width: 7rem;
+  height: 4.95rem;
+}
+
+.bjlife .img2-box .img2 {
+  width: 7rem;
+  height: 2.45rem;
+}
+
+.guoji {
+  height: 5.03rem;
+}
+
+.guoji img {
+  width: 31%;
+  height: 100%;
+}
